@@ -106,7 +106,7 @@ export default function Form() {
         required
         label="Price"
         onChange={handlePriceChange}
-        defaultValue={Number(formData.Price)}
+        value={Number(formData.Price)}
       />
       <FormControl fullWidth>
         <InputLabel>Type</InputLabel>
